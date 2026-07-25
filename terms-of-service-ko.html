@@ -28,12 +28,41 @@
       align-items: center;
       gap: 12px;
     }
-    header .logo { font-family: 'DM Serif Display', serif; font-size: 24px; color: #000000; }
-    header .badge { background: var(--blue-light); color: #000000; font-size: 12px; padding: 4px 10px; border-radius: 20px; font-weight: 500; }
-    .container { max-width: 760px; margin: 48px auto; padding: 0 24px 80px; }
-    h1 { font-family: 'DM Serif Display', serif; font-size: 40px; color: #000000; margin-bottom: 8px; }
-    .updated { color: var(--muted); font-size: 14px; margin-bottom: 40px; }
-    h2 { font-family: 'DM Serif Display', serif; font-size: 22px; margin: 36px 0 12px; color: var(--text); }
+    header .logo {
+      font-family: 'DM Serif Display', serif;
+      font-size: 24px;
+      color: #000000;
+    }
+    header .badge {
+      background: var(--blue-light);
+      color: #000000;
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-weight: 500;
+    }
+    .container {
+      max-width: 760px;
+      margin: 48px auto;
+      padding: 0 24px 80px;
+    }
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 40px;
+      color: #000000;
+      margin-bottom: 8px;
+    }
+    .updated {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 22px;
+      margin: 36px 0 12px;
+      color: var(--text);
+    }
     p { margin-bottom: 14px; font-weight: 300; }
     ul { padding-left: 20px; margin-bottom: 14px; }
     ul li { margin-bottom: 6px; font-weight: 300; }
@@ -42,8 +71,18 @@
     td { padding: 10px 12px; border-bottom: 1px solid #eee; vertical-align: top; }
     a { color: var(--pink); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    .card { background: white; border-radius: 16px; padding: 32px; box-shadow: 0 2px 16px rgba(100,180,255,0.08); }
-    footer { text-align: center; padding: 32px; color: var(--muted); font-size: 13px; }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 2px 16px rgba(100,180,255,0.08);
+    }
+    footer {
+      text-align: center;
+      padding: 32px;
+      color: var(--muted);
+      font-size: 13px;
+    }
   </style>
 </head>
 <body>
@@ -54,7 +93,7 @@
 
   <div class="container">
     <h1>서비스 이용약관</h1>
-    <p class="updated">최종 업데이트: 2026년 5월 8일</p>
+    <p class="updated">최종 업데이트: 2026년 7월 26일</p>
 
     <div class="card">
 
@@ -67,43 +106,47 @@
       <p>Fonkii는 다음 기능을 제공하는 iOS 키보드 애플리케이션입니다:</p>
       <ul>
         <li>47가지 유니코드 폰트 스타일로 텍스트 변환</li>
-        <li>9개 언어 AI 번역 (OpenAI API 기반) — 월간/연간 구독 시 하루 300회, 무료 사용자 하루 5회 제공</li>
+        <li>9개 언어 AI 번역 (OpenAI API 기반) — 구독 시 하루 100회 제공</li>
         <li>카오모지 이모티콘 및 특수문자</li>
         <li>GIF 검색 (GIPHY 제공)</li>
         <li>도트아트</li>
         <li>텍스트 대치</li>
         <li>즐겨찾기 관리</li>
       </ul>
+      <p>Fonkii는 별도의 무료 이용 등급 없이 전체 구독제로 운영되며, 구독 전 앱 내 체험 공간에서 기능을 미리 확인할 수 있습니다.</p>
 
       <h2>제3조 (구독 및 결제)</h2>
       <p>Fonkii는 다음 플랜을 제공합니다. 실제 적용 가격은 앱스토어 내 표시 가격을 기준으로 하며, 프로모션에 따라 변동될 수 있습니다.</p>
       <table>
         <tr>
           <th>플랜</th>
-          <th>가격</th>
+          <th>정가</th>
           <th>포함 기능</th>
+          <th>무료체험</th>
           <th>결제 방식</th>
         </tr>
         <tr>
           <td>월간 구독</td>
-          <td>₩3,900 / 월</td>
-          <td>AI 번역(하루 300회) 포함 전체 기능</td>
+          <td>₩2,500 / 월</td>
+          <td>AI 번역(하루 100회)을 포함한 전체 기능</td>
+          <td>1주일</td>
           <td>매월 자동 갱신</td>
         </tr>
         <tr>
           <td>연간 구독</td>
-          <td>₩39,000 / 년</td>
-          <td>AI 번역(하루 300회) 포함 전체 기능</td>
+          <td>₩21,000 / 년</td>
+          <td>AI 번역(하루 100회)을 포함한 전체 기능</td>
+          <td>1주일</td>
           <td>연 1회 자동 갱신</td>
         </tr>
       </table>
+      <p>월간·연간 구독 모두 최초 1회에 한해 1주일 무료체험을 제공합니다. 체험 기간 종료 최소 24시간 전에 취소하지 않으면 자동으로 유료 구독으로 전환되며 결제가 진행됩니다.</p>
       <p>모든 결제는 Apple App Store를 통해 처리됩니다. 구독은 현재 구독 기간 종료 최소 24시간 전에 취소하지 않으면 자동으로 갱신됩니다. 구독 관리 및 자동 갱신 해제는 Apple ID 계정 설정에서 가능합니다.</p>
 
       <h2>제4조 (AI 번역 기능 이용 제한)</h2>
       <p>AI 번역 기능은 OpenAI API를 통해 제공되며, 서비스의 안정적인 운영을 위해 다음과 같은 이용 제한이 적용됩니다:</p>
       <ul>
-        <li>무료 사용자: 하루 5회</li>
-        <li>월간/연간 구독: 하루 300회</li>
+        <li>구독자: 하루 100회</li>
         <li>1회 번역 시 최대 200자까지 입력 가능합니다.</li>
         <li>일일 한도는 매일 자정(기기 기준)에 초기화됩니다.</li>
       </ul>
@@ -117,7 +160,7 @@
       </ul>
 
       <h2>제6조 (앱 내 체험 공간)</h2>
-      <p>Fonkii는 구독 전 키보드 기능을 미리 체험해볼 수 있는 앱 내 공간을 제공합니다. 앱 외부에서의 전체 키보드 기능 사용은 활성 구독이 필요합니다.</p>
+      <p>Fonkii는 구독 전 키보드 기능을 미리 체험해볼 수 있는 앱 내 공간을 제공합니다. 앱 외부에서의 전체 키보드 기능 사용은 활성 구독(무료체험 포함)이 필요합니다.</p>
 
       <h2>제7조 (이용 제한)</h2>
       <p>다음 행위에 Fonkii를 사용해서는 안 됩니다:</p>
